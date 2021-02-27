@@ -1,0 +1,8 @@
+---
+version: "2.1"
+services:
+  openssh-server:
+    build: https://github.com/timlinux/docker-ssh.git
+    container_name: openssh-server
+    ports:
+      - "2222:22"
